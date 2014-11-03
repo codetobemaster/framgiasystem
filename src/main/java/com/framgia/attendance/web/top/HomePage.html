@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+  <wicket:extend>
+    <div wicket:id="feedback"></div>
+    
+    <h1>Hello World !!</h1>
+    <div wicket:id="container">
+    <span wicket:id="message">Message comes here</span>
+    <a href="#" wicket:id="link">リンク</a>
+    </div>
+    
+    <form wicket:id="form">
+      <div>
+      <input type="text" name="name" wicket:id="name" />
+      <input type="submit" value="送信" wicket:id="submitButton" />
+      </div>
+    </form>
+    <div wicket:id="result"></div>
+  </wicket:extend>
+
+</body>
+</html>

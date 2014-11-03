@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+	<wicket:extend>
+		<div wicket:id="feedback"></div>
+		<form wicket:id="form">
+			<div>
+				<input type="text" name="name" wicket:id="name" /> <input
+					type="submit" value="Search" wicket:id="submitButton" />
+			</div>
+		</form>
+		<div wicket:id="container">
+			<table class="table table-condensed table-bordered table-hover">
+				<thead>
+					<tr class="info">
+						<th><wicket:message key="framgia.attendance.label.EmployeeID" /></th>
+						<th><wicket:message
+								key="framgia.attendance.label.EmployeeName" /></th>
+						<th><wicket:message key="framgia.attendance.label.WorkingDay" /></th>
+						<th><wicket:message key="framgia.attendance.label.TimeIn" /></th>
+						<th><wicket:message key="framgia.attendance.label.TimeOut" /></th>
+					</tr>
+				</thead>
+				<tr wicket:id="listViewTimeInOut">
+					<td><span wicket:id="EmployeeID">055</span></td>
+					<td><span wicket:id="EmployeeName">055</span></td>
+					<td><span wicket:id="WorkingDay">055</span></td>
+					<td><span wicket:id="TimeIn">055</span></td>
+					<td><span wicket:id="TimeOut">055</span></td>
+				</tr>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</wicket:extend>
+
+</body>
+</html>

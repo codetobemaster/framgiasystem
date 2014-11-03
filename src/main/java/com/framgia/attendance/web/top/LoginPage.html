@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>UB Attendance</title>
+</head>
+<body>
+
+  <div id="main" class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-md-offset-4 col-sm-offset-4 text-center">
+        <img wicket:id="logo" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-md-offset-4 col-sm-offset-4">
+        <div class="panel panel-info">
+          <div class="panel-body">
+            <div class="form-group text-center">
+              <h2 class="text-primary banner-color">
+                <span class="ion-clock" />
+                <wicket:message key="app.title" />
+              </h2>
+              <span wicket:id="feedback" />
+            </div>
+            <form wicket:id="loginForm">
+              <div class="form-group">
+                 <label><wicket:message
+                    key="loginForm.username" /></label> <input type="text"
+                  class="form-control input-sm" wicket:id="username" />
+              </div>
+              <div class="form-group">
+                <label><wicket:message key="loginForm.password" /></label> <input
+                  type="password" name="password" class="form-control input-sm"
+                  wicket:id="password" />
+              </div>
+              <div class="form-group">
+              <br/>
+                <button type="submit" class="btn btn-info btn-block btn-xs">
+                  <wicket:message key="loginForm.login" />
+                </button>
+              </div>
+              <div class="form-group text-center">
+                <!-- 
+                <label> <input type="checkbox" /> <wicket:message
+                    key="loginForm.rememberMe" />  </label>-->
+                <a wicket:id="forgetLink" class="text-center"><wicket:message
+                    key="loginForm.forgotPassword" /></a>
+              </div>
+            
+            </form>
+             <br/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer" class="container">
+    <hr />
+    <p>
+      <wicket:message key="app.footer" />
+    </p>
+  </div>
+
+</body>
+
+</html>

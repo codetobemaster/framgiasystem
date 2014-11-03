@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<License>
+  <Data>
+    <LicensedTo>UZABASE Inc.</LicensedTo>
+    <LicenseType>Developer OEM</LicenseType>
+    <LicenseNote>Limited to 1 developer.</LicenseNote>
+    <OrderID>120912005414</OrderID>
+    <OEM>This is a redistributable license</OEM>
+    <Products>
+      <Product>Aspose.Total for Java</Product>
+    </Products>
+    <EditionType>Enterprise</EditionType>
+    <SerialNumber>71b79e7e-57e2-453f-992b-19ba603a977d</SerialNumber>
+    <SubscriptionExpiry>20130924</SubscriptionExpiry>
+    <LicenseVersion>2.2</LicenseVersion>
+  </Data>
+  <Signature>UAkbJkwbk0/wmxVfGYR9oSBSaCdZKo1XagmhqbqaKXbWFr5TqSD4V0OdEMRB+U1Wa9OaPo5yAOSJfd8H5DEi5HYuhYEdRywzgW5tUnaK/GcsctDR4MfVrdspoqkl4iQgDhr/7CB4UmONkV6Tp3Rni2fGyNVJNo7z/v6yGJnxy6g=</Signature>
+</License>
